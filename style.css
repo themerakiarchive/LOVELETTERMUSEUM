@@ -55,14 +55,14 @@ nav {
 
 /* BUTTON */
 .cta {
-  width: 258px;
-  height: 51px;
+  width: 180px;
+  height: 38px;
+  font-size: 14px;
   background: rgba(0, 0, 0, 0.75);
   color: #ffffff;
   border: none;
   border-radius: 20px;
   font-family: 'Inter', sans-serif;
-  font-size: 22px;
   cursor: pointer;
   display: flex;
   align-items: center;
