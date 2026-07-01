@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #faf9f6;
+  color: #1a1a1a;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  border-bottom: 0.5px solid #e0e0e0;
+}
+
+.brand {
+  font-size: 13px;
+  letter-spacing: 0.04em;
+}
+
+.tagline {
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  color: #888;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px 70px;
+}
+
+.cursive {
+  font-family: 'Dancing Script', cursive;
+  font-size: 52px;
+  margin-bottom: 14px;
+}
+
+.subtitle {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 28px;
+}
+
+.cta {
+  background: #1a1a1a;
+  color: #faf9f6;
+  border: none;
+  padding: 11px 24px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.history {
+  border-top: 0.5px solid #e0e0e0;
+  padding: 50px 40px;
+  max-width: 600px;
+}
+
+.label {
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  color: #888;
+  margin-bottom: 14px;
+}
+
+.story {
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 14px;
+}
+
+.credit {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 28px;
+}
