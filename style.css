@@ -39,7 +39,7 @@ nav {
 .hero {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   padding-top: 80px;
   min-height: 100vh;
@@ -72,15 +72,17 @@ nav {
 /* SIDE IMAGES */
 .side-left {
   width: 150px;
-  height: auto;
-  object-fit: contain;
+  height: 500px;
+  object-fit: cover;
+  object-position: top;
   flex-shrink: 0;
 }
 
 .side-right {
   width: 130px;
-  height: auto;
-  object-fit: contain;
+  height: 500px;
+  object-fit: cover;
+  object-position: top;
   flex-shrink: 0;
 }
 
