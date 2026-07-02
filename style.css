@@ -71,16 +71,16 @@ nav {
 
 /* SIDE IMAGES */
 .side-left {
-  width: 200px;
-  height: 576px;
+  width: 150px;
+  height: 400px;
   object-fit: cover;
   object-position: right;
   flex-shrink: 0;
 }
 
 .side-right {
-  width: 180px;
-  height: 576px;
+  width: 130px;
+  height: 400px;
   object-fit: cover;
   object-position: left;
   flex-shrink: 0;
