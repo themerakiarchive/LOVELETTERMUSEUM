@@ -72,10 +72,12 @@ nav {
 /* SIDE IMAGES */
 .side-left {
   width: 150px;
-  height: 500px;
-  object-fit: cover;
+  height: auto;
+  max-height: 500px;
+  object-fit: contain;
   object-position: top;
   flex-shrink: 0;
+  margin-left: -10px;
 }
 
 .side-right {
