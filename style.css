@@ -39,10 +39,10 @@ nav {
 .hero {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
+  justify-content: space-between;
   padding-top: 80px;
-  gap: 20px;
+  min-height: 100vh;
 }
 
 .hero-center {
@@ -50,6 +50,8 @@ nav {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  flex: 1;
+  padding: 40px 20px;
 }
 
 .hero-handwriting {
@@ -69,17 +71,19 @@ nav {
 
 /* SIDE IMAGES */
 .side-left {
-  width: 254px;
+  width: 200px;
   height: 576px;
   object-fit: cover;
-  align-self: flex-end;
+  object-position: right;
+  flex-shrink: 0;
 }
 
 .side-right {
-  width: 218px;
+  width: 180px;
   height: 576px;
   object-fit: cover;
-  align-self: flex-end;
+  object-position: left;
+  flex-shrink: 0;
 }
 
 /* BUTTON */
