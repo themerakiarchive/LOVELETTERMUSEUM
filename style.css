@@ -120,7 +120,6 @@ nav {
 .history-page {
   padding: 80px 60px;
   border-top: 0.5px solid #e0e0e0;
-  max-width: 700px;
   text-align: left;
 }
 
@@ -137,6 +136,7 @@ nav {
   font-weight: 500;
   line-height: 1.2;
   margin-bottom: 12px;
+  max-width: 700px;
 }
 
 .subtitle-history {
@@ -148,11 +148,12 @@ nav {
 
 .story {
   font-family: 'Playfair Display', serif;
-  font-size: 23px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 400;
   line-height: 1.75;
   margin-bottom: 24px;
   color: #2a2a2a;
+  max-width: 700px;
 }
 
 .credit {
