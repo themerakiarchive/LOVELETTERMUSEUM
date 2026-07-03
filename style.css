@@ -28,6 +28,11 @@ nav {
 .brand {
   font-family: 'Playfair Display', serif;
   font-size: 20px;
+  transition: color 0.2s ease;
+}
+
+.brand:hover {
+  color: #888;
 }
 
 .tagline {
