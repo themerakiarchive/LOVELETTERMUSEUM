@@ -132,9 +132,10 @@ nav {
 }
 
 .history-right {
-  width: 500px;
+  width: 580px;
   flex-shrink: 0;
   padding-top: 60px;
+  margin-left: -40px;
 }
 
 .history-img {
