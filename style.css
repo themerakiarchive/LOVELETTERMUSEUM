@@ -187,3 +187,29 @@ nav {
 .history-cta {
   padding: 10px 0 60px;
 }
+
+/* MUSEUM SECTION */
+.museum-section {
+  padding: 80px 60px;
+  border-top: 0.5px solid #e0e0e0;
+  text-align: center;
+}
+
+.museum-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.museum-img-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.museum-img {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  object-fit: contain;
+}
