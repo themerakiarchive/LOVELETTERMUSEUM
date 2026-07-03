@@ -116,24 +116,12 @@ nav {
   background: rgba(0, 0, 0, 0.9);
 }
 
-/* HISTORY PAGE */
+/* HISTORY SECTION */
 .history-page {
-  padding-top: 100px;
+  padding: 80px 60px;
+  border-top: 0.5px solid #e0e0e0;
   max-width: 700px;
-  margin: 0 auto;
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
-.history-hero {
-  padding: 60px 0 30px;
-}
-
-.history-hero h1 {
-  font-size: 36px;
-  font-weight: 500;
-  margin: 10px 0 8px;
-  line-height: 1.3;
+  text-align: left;
 }
 
 .label {
@@ -143,25 +131,37 @@ nav {
   margin-bottom: 14px;
 }
 
-.history-body {
-  padding: 20px 0;
+.history-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+
+.subtitle-history {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  color: #888;
+  margin-bottom: 40px;
 }
 
 .story {
-  font-size: 18px;
+  font-family: 'Playfair Display', serif;
+  font-size: 23px;
+  font-weight: 500;
   line-height: 1.75;
   margin-bottom: 24px;
   color: #2a2a2a;
 }
 
 .credit {
-  font-size: 14px;
+  font-size: 16px;
   color: #888;
   font-style: italic;
-  margin-top: 10px;
   margin-bottom: 40px;
 }
 
 .history-cta {
-  padding: 20px 0 60px;
+  padding: 10px 0 60px;
 }
