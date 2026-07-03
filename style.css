@@ -121,6 +121,26 @@ nav {
   padding: 80px 60px;
   border-top: 0.5px solid #e0e0e0;
   text-align: left;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  align-items: flex-start;
+}
+
+.history-left {
+  flex: 1;
+}
+
+.history-right {
+  width: 380px;
+  flex-shrink: 0;
+  padding-top: 120px;
+}
+
+.history-img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 .label {
